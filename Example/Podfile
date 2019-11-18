@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Leetools_Example' do
+  pod 'Leetools', :path => '../'
+
+  target 'Leetools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

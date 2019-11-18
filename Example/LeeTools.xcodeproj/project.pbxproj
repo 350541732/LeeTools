@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		00677BC27423D8C1F9BAF90E /* Pods_LeeTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeeTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		00FB05EA0F33C1F9C97FF389 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		00FB05EA0F33C1F9C97FF389 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		0F3A8D85381AAA9EA16795E8 /* Pods-LeeTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeeTools_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LeeTools_Tests/Pods-LeeTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E57752611A8BE7A5201AD78 /* Pods_LeeTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeeTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* LeeTools_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeeTools_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,8 +43,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		874AD7968AE0A22E38C953DF /* Pods-LeeTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeeTools_Tests.release.xcconfig"; path = "Target Support Files/Pods-LeeTools_Tests/Pods-LeeTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8E23E92C30BEAA22A728E5AA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		A8C204BDE673EAE5F648185C /* LeeTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LeeTools.podspec; path = ../LeeTools.podspec; sourceTree = "<group>"; };
+		8E23E92C30BEAA22A728E5AA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A8C204BDE673EAE5F648185C /* LeeTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LeeTools.podspec; path = ../LeeTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B4942DEC20F940AC6D5AF3F8 /* Pods-LeeTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeeTools_Example.debug.xcconfig"; path = "Target Support Files/Pods-LeeTools_Example/Pods-LeeTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F5D7889B43FB998CFECA7853 /* Pods-LeeTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeeTools_Example.release.xcconfig"; path = "Target Support Files/Pods-LeeTools_Example/Pods-LeeTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				0F3A8D85381AAA9EA16795E8 /* Pods-LeeTools_Tests.debug.xcconfig */,
 				874AD7968AE0A22E38C953DF /* Pods-LeeTools_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -8,12 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LeeTools'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'LeeTools'
 
+  s.swift_version = '4.0'
 
-
-  s.description      = "DESC"
+  s.description      = "DESCLEESINDEMO "
 
   s.homepage         = 'https://github.com/350541732/LeeTools'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

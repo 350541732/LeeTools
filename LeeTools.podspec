@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LeeTools'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'LeeTools'
 
   s.swift_version = '4.0'
@@ -31,5 +31,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'AFNetworking', '~> 2.3'
 end
